@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import HeroVideo from './components/HeroVideo';
-import PriceBanner from './components/PriceBanner';
-import Gallery from './components/Gallery';
-import Specifications from './components/Specifications';
-import StrategicLocation from './components/StrategicLocation';
-import LocationMap from './components/LocationMap';
-import CallToAction from './components/CallToAction';
-import Footer from './components/Footer';
-import Chatbot from './components/Chatbot';
-import { ChatIcon } from './components/icons/ChatIcon';
+import Header from './components/Header.tsx';
+import HeroVideo from './components/HeroVideo.tsx';
+import PriceBanner from './components/PriceBanner.tsx';
+import Gallery from './components/Gallery.tsx';
+import Specifications from './components/Specifications.tsx';
+import StrategicLocation from './components/StrategicLocation.tsx';
+import LocationMap from './components/LocationMap.tsx';
+import CallToAction from './components/CallToAction.tsx';
+import Footer from './components/Footer.tsx';
+import Chatbot from './components/Chatbot.tsx';
+import { ChatIcon } from './components/icons/ChatIcon.tsx';
 
 const App: React.FC = () => {
   const [isChatbotOpen, setIsChatbotOpen] = useState(false);

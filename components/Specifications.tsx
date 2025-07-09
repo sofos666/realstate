@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
-import useIntersectionObserver from '../hooks/useIntersectionObserver';
-import { LandAreaIcon } from './icons/LandAreaIcon';
-import { DeedIcon } from './icons/DeedIcon';
-import { TopographyIcon } from './icons/TopographyIcon';
-import { AccessIcon } from './icons/AccessIcon';
-import { ServicesIcon } from './icons/ServicesIcon';
-import { ViewIcon } from './icons/ViewIcon';
+import useIntersectionObserver from '../hooks/useIntersectionObserver.ts';
+import { LandAreaIcon } from './icons/LandAreaIcon.tsx';
+import { DeedIcon } from './icons/DeedIcon.tsx';
+import { TopographyIcon } from './icons/TopographyIcon.tsx';
+import { AccessIcon } from './icons/AccessIcon.tsx';
+import { ServicesIcon } from './icons/ServicesIcon.tsx';
+import { ViewIcon } from './icons/ViewIcon.tsx';
 
 interface SpecCardProps {
   icon: React.ReactNode;

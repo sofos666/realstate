@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import PanoramaViewer from './PanoramaViewer';
-import useIntersectionObserver from '../hooks/useIntersectionObserver';
+import PanoramaViewer from './PanoramaViewer.tsx';
+import useIntersectionObserver from '../hooks/useIntersectionObserver.ts';
 
 const Gallery: React.FC = () => {
   const images = [

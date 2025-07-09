@@ -1,7 +1,7 @@
 import React from 'react';
-import { PhoneIcon } from './icons/PhoneIcon';
-import { EmailIcon } from './icons/EmailIcon';
-import { WhatsappIcon } from './icons/WhatsappIcon';
+import { PhoneIcon } from './icons/PhoneIcon.tsx';
+import { EmailIcon } from './icons/EmailIcon.tsx';
+import { WhatsappIcon } from './icons/WhatsappIcon.tsx';
 
 const CallToAction: React.FC = () => {
   const tanya = {

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
-import useIntersectionObserver from '../hooks/useIntersectionObserver';
-import { MapPinIcon } from './icons/MapPinIcon';
+import useIntersectionObserver from '../hooks/useIntersectionObserver.ts';
+import { MapPinIcon } from './icons/MapPinIcon.tsx';
 
 const LocationMap: React.FC = () => {
   const [loadMap, setLoadMap] = useState(false);

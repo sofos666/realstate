@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPinIcon } from './icons/MapPinIcon';
+import { MapPinIcon } from './icons/MapPinIcon.tsx';
 
 interface BenefitItemProps {
   children: React.ReactNode;
